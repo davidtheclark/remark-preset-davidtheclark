@@ -1,6 +1,6 @@
 {
   "name": "remark-preset-davidtheclark",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "My remark preset, for keeping Markdown documentation tidy",
   "main": "index.js",
   "scripts": {

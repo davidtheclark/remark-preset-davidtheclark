@@ -8,6 +8,7 @@ exports.settings = {
 
 exports.plugins = [
   require('remark-validate-links'),
+  [require('remark-toc'), { maxDepth: 3, tight: true }],
   [require('remark-lint-blockquote-indentation'), 2],
   [require('remark-lint-code-block-style'), 'fenced'],
   [require('remark-lint-fenced-code-marker'), '`'],
@@ -24,5 +25,4 @@ exports.plugins = [
   [require('remark-lint-no-missing-blank-lines'), { exceptTightLists: true }],
   require('remark-lint-no-multiple-toplevel-headings'),
   require('remark-lint-no-tabs'),
-  [require('remark-toc'), { maxDepth: 3, tight: true }]
 ];
