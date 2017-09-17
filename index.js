@@ -17,7 +17,6 @@ exports.plugins = [
   require('remark-lint-first-heading-level'),
   [require('remark-lint-heading-style'), 'atx'],
   [require('remark-lint-list-item-indent'), 'space'],
-  require('remark-lint-no-consecutive-blank-lines'),
   require('remark-lint-no-duplicate-definitions'),
   require('remark-lint-no-duplicate-headings'),
   require('remark-lint-no-heading-content-indent'),
