@@ -1,6 +1,8 @@
 # remark-preset-davidtheclark
 
-My remark preset, for keeping Markdown documentation tidy.
+My [remark] preset, for keeping Markdown documentation tidy.
+
+Uses [remark-lint] plugins and a few other [remark] plugins.
 
 Validation:
 
@@ -18,6 +20,8 @@ Syntax — most of which is automatically fixed:
 
 ## Usage
 
+### As a remark plugin
+
 Usage with [remark-cli](https://github.com/wooorm/remark/tree/master/packages/remark-cli).
 
 Here's the way I like to use it, which does the following:
@@ -28,5 +32,17 @@ Here's the way I like to use it, which does the following:
 - Only outputs warnings and errors (`--quiet` and `--no-stdout`).
 
 ```
-remark '*.md' 'docs/**/*.md' --use remark-preset-davidtheclark --frail --quiet --no-stdout --output
+remark . --use remark-preset-davidtheclark --frail --quiet --no-stdout --output
 ```
+
+### As a standalone tool
+
+This package provides an executable that runs the above command for you.
+So you could create a little npm script like this:
+
+```
+"lint-md": "remark-preset-davidtheclark"
+```
+
+[remark]: https://github.com/wooorm/remark
+[remark-lint]: https://github.com/wooorm/remark-lint
