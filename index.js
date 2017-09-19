@@ -12,7 +12,6 @@ exports.plugins = [
   [require('remark-lint-blockquote-indentation'), 2],
   [require('remark-lint-file-extension'), 'md'],
   require('remark-lint-final-definition'),
-  require('remark-lint-first-heading-level'),
   require('remark-lint-no-duplicate-definitions'),
   require('remark-lint-no-duplicate-headings'),
   require('remark-lint-no-multiple-toplevel-headings'),

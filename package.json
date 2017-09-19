@@ -1,6 +1,6 @@
 {
   "name": "remark-preset-davidtheclark",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "My remark preset, for keeping Markdown documentation tidy",
   "main": "index.js",
   "bin": "bin.js",
@@ -28,7 +28,6 @@
     "remark-lint-blockquote-indentation": "^1.0.1",
     "remark-lint-file-extension": "^1.0.1",
     "remark-lint-final-definition": "^1.0.1",
-    "remark-lint-first-heading-level": "^1.1.1",
     "remark-lint-no-duplicate-definitions": "^1.0.1",
     "remark-lint-no-duplicate-headings": "^1.0.1",
     "remark-lint-no-multiple-toplevel-headings": "^1.0.1",
