@@ -16,4 +16,5 @@ exports.plugins = [
   require('remark-lint-no-duplicate-headings'),
   require('remark-lint-no-multiple-toplevel-headings'),
   require('remark-lint-no-tabs'),
+  require('remark-lint-no-undefined-references'),
 ];
