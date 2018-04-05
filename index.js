@@ -13,7 +13,6 @@ exports.plugins = [
   [require('remark-lint-file-extension'), 'md'],
   require('remark-lint-final-definition'),
   require('remark-lint-no-duplicate-definitions'),
-  require('remark-lint-no-duplicate-headings'),
   require('remark-lint-no-multiple-toplevel-headings'),
   require('remark-lint-no-tabs'),
   require('remark-lint-no-undefined-references'),
