@@ -4,7 +4,7 @@
 const execa = require('execa');
 const path = require('path');
 
-let files = process.argv.slice(1);
+let files = process.argv.slice(2);
 if (files.length === 0) {
   files = [process.cwd()];
 }
