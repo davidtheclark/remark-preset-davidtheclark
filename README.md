@@ -45,5 +45,7 @@ So you could create a little npm script like this:
 "lint-md": "remark-preset-davidtheclark"
 ```
 
+It accepts files as arguments, e.g. `remark-preset-davidtheclark path/to/a.md 'b/**/*.md'`.
+
 [remark]: https://github.com/wooorm/remark
 [remark-lint]: https://github.com/wooorm/remark-lint

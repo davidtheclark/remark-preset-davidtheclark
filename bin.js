@@ -4,15 +4,19 @@
 const execa = require('execa');
 const path = require('path');
 
-const result = execa.sync('remark', [
-  process.cwd(),
+let files = process.argv.slice(1);
+if (files.length === 0) {
+  files = [process.cwd()];
+}
+
+const result = execa.sync('remark', files.concat([
   `--use`,
   `remark-preset-davidtheclark`,
   `--frail`,
   `--quiet`,
   `--no-stdout`,
   `--output`
-]);
+]));
 
 if (result.stderr) {
   console.error(result.stderr);
