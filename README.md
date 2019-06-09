@@ -1,5 +1,4 @@
-remark-preset-davidtheclark
-============================
+# remark-preset-davidtheclark
 
 My [remark] preset, for keeping Markdown documentation tidy.
 
@@ -21,31 +20,27 @@ Syntax — most of which is automatically fixed:
 
 ## Usage
 
-### As a remark plugin
+You can use this package as a remark plugin, in Node code or with [remark-cli].
 
-Usage with [remark-cli](https://github.com/wooorm/remark/tree/master/packages/remark-cli).
-
-Here's the way I like to use it, which does the following:
-
-- Checks Markdown files in the project root and `docs/` directory.
-- Automatically formats files, overwriting them (`--output`).
-- Breaks tests if linting errors are found (`--frail`).
-- Only outputs warnings and errors (`--quiet` and `--no-stdout`).
+It also provides a CLI that runs remark-cli for you, which is how I normally use it.
 
 ```
-remark . --use remark-preset-davidtheclark --frail --quiet --no-stdout --output
+Lint or format Markdown files.
+
+Usage
+  remark-preset-davidtheclark [options] [path|glob...]
+
+  By default, runs on all Markdown files in cwd.
+
+Options
+  -f, --format    Format files instead of linting them.
+
+Examples
+  remark-preset-davidtheclark
+  remark-preset-davidtheclark docs/*.md
+  remark-preset-davidtheclark --format "docs/**/*.md"
 ```
-
-### As a standalone tool
-
-This package provides an executable that runs the above command for you.
-So you could create a little npm script like this:
-
-```
-"lint-md": "remark-preset-davidtheclark"
-```
-
-It accepts files as arguments, e.g. `remark-preset-davidtheclark path/to/a.md 'b/**/*.md'`.
 
 [remark]: https://github.com/wooorm/remark
 [remark-lint]: https://github.com/wooorm/remark-lint
+[remark-cli]: https://github.com/wooorm/remark/tree/master/packages/remark-cli

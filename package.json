@@ -23,21 +23,22 @@
   },
   "homepage": "https://github.com/davidtheclark/remark-preset-davidtheclark#readme",
   "dependencies": {
-    "execa": "^0.8.0",
-    "remark-cli": "^4.0.0",
-    "remark-lint-blockquote-indentation": "^1.0.1",
-    "remark-lint-file-extension": "^1.0.1",
-    "remark-lint-final-definition": "^1.0.1",
-    "remark-lint-no-duplicate-definitions": "^1.0.1",
-    "remark-lint-no-duplicate-headings": "^1.0.1",
-    "remark-lint-no-multiple-toplevel-headings": "^1.0.1",
-    "remark-lint-no-tabs": "^1.0.1",
-    "remark-lint-no-undefined-references": "^1.0.1",
-    "remark-toc": "^4.0.1",
-    "remark-validate-links": "^7.0.0"
+    "execa": "^1.0.0",
+    "meow": "^5.0.0",
+    "remark-cli": "^6.0.1",
+    "remark-lint-blockquote-indentation": "^1.0.2",
+    "remark-lint-file-extension": "^1.0.2",
+    "remark-lint-final-definition": "^1.0.2",
+    "remark-lint-no-duplicate-definitions": "^1.0.3",
+    "remark-lint-no-duplicate-headings": "^1.0.2",
+    "remark-lint-no-multiple-toplevel-headings": "^1.0.2",
+    "remark-lint-no-tabs": "^1.0.2",
+    "remark-lint-no-undefined-references": "^1.1.0",
+    "remark-toc": "^5.1.1",
+    "remark-validate-links": "^8.0.2"
   },
   "devDependencies": {
-    "remark": "^8.0.0",
-    "vfile-reporter": "^4.0.0"
+    "remark": "^10.0.1",
+    "vfile-reporter": "^6.0.0"
   }
 }
