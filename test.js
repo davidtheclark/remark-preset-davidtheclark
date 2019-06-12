@@ -6,6 +6,10 @@ const report = require('vfile-reporter');
 
 // Adjust this as needed to test whatever linting rule you want to test.
 const md = `
+---
+front: matter
+---
+
   #    Here is some MD #
 
 paragraph.

@@ -7,6 +7,7 @@ exports.settings = {
 };
 
 exports.plugins = [
+  require('remark-frontmatter'),
   require('remark-validate-links'),
   [require('remark-toc'), { maxDepth: 3, tight: true }],
   [require('remark-lint-blockquote-indentation'), 2],
