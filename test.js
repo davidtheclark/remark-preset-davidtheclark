@@ -20,8 +20,7 @@ paragraph.
 >   one
   >    two
 
-[refless]
-
+[reflekss]
 [refless]: /foo/bar
 `;
 
