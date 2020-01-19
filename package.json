@@ -35,7 +35,7 @@
     "remark-lint-no-multiple-toplevel-headings": "^1.0.4",
     "remark-lint-no-tabs": "^1.0.3",
     "remark-lint-no-undefined-references": "^1.1.1",
-    "remark-toc": "^6.0.0",
+    "remark-toc": "^7.0.0",
     "remark-validate-links": "^9.1.0"
   },
   "devDependencies": {
